@@ -8,6 +8,7 @@ body {
     background-position: center;
     height: 700px;
     width: 100%;
+	background-attachment: fixed;
 }
 .banner img {
 	margin-top: 8%;
@@ -73,7 +74,7 @@ body {
     font-size: 25px;
     line-height: 2.0em;
     word-spacing: 0.30;  
-    font-style: italic;
+    
     letter-spacing: 1.5;
     font-weight: bold;
 	
@@ -114,31 +115,6 @@ body {
     font-weight: bold;
 	margin: auto;
 }
-.socialc {
-	background-color: ivory;
-	padding: 10px 0px 10px 0px;
-	
-}
-.social h1{
-    font-size: 60px;
-    font-family: broadway,times,serif;
-    color: #ef0414; 
-}
-.social h2{
-    font-size: 45px;
-    font-family: blackadder ITC;
-    color: #8012c9;
-}
-.social h3 {
-	font-size: 30px;
-	color:indigo;
-}
-.social a {
-    font-size: 30px;
-	
-    color:#32a8f2
-
-}
 .qualificationc {
      background-image: url("../img/b.jpg ");
 	padding: 10px 0px 10px 0px;
@@ -171,9 +147,9 @@ body {
 	border-radius: 50%;
 }
 .thoughtc {
-	background-color: ivory;
+	background-image: url("../img/light.jpg");
 	width: 100%;
-	
+    background-attachment: fixed;
 }
 .thought h1 {
 	font-size:60px;
@@ -182,9 +158,10 @@ body {
 }
 .thought h2 {
 	font-size: 30px;
+	color:#000;
 } 
 .projectc {
-	background-color:#fff;
+	background-image: white;
 }
 .project img {
 	border-radius: 50%
@@ -195,33 +172,45 @@ body {
     color: #e51923;
 }
 .project h2 {
-	font-size: 35px;
+	font-size: 30px;
 	color:#000;
 }
-.footerc {
+#map {
+        height: 400px;
+        width: 100%;
+}
+.location h3 {
+	font-size:60px;
+    font-family:broadway,times,serif;
+    color: #e51923;
+}
+.iconc {
 	background-image: url("../img/31.jpg");
 	padding: 10px 0px 10px 0px;
-}   width: ;
-.footer {
-    
-    text-align:left;
+	background-attachment: fixed;
 }
-.footer a {
+.icon a {
     color:#32a8f2;
+	text-align: center;
+	padding-left: 70px;
 }
-.footer h5 {
+.icon h5,h4,h2 {
     color:#fff;
 	font-size: 35px;
 	text-align: center;
 }
+.footerc {
+	background-image: #000;
+	padding: 10px 0px 10px 0px;
+}
 .footer h1 {
     font-size: 50px;
     font-family: bradley hand ITC;
-    color: Red;
+    color: black;
     text-align: center; 
 	font-weight: bold;
 }
 .footer h2 {
-	color:#fff;
+	color:#000;
 	font-size: 30px;
 }
