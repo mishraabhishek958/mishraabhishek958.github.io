@@ -2,8 +2,9 @@ body {
     background-color: #fff;
      
 }
+
 .bannerc {
-    background-image: url("../img/123.jpg ");
+    background-image: url("../img/2.jpg ");
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -25,6 +26,10 @@ body {
 	
 	color: #fff;
 }
+.banner .arrow .fa {
+	font-size: 70px;
+	color: #fff;
+}
 .imagec {
 	background-image: url("../img/30.jpg");
 	text-align: center;
@@ -36,18 +41,19 @@ body {
     width: 100%;
     height: 100px;
     
-    background-color: #29b6f6;
+    background-color: #fff;
     text-align: right;
 }
 .nav h2 {
     font-family: Garamond,Times,Serif;
     float: left;
-	color: #fff;
+	color: #000;
     font-size: 5em;
     margin: 20px;
 }
 .nav li {
-	color:#ffffff;
+	font-weight: bold;
+	color:#000;
     font: left;
     font-size: 20px;
     padding: 5px;
@@ -56,13 +62,14 @@ body {
     margin-right: 5px;
 }
 .nav a {
-	color: #ffffff;
+	color: #000;
 	text-decoration: none;
 	
 } 
 .aboutc {
-	background-image: url("../img/29.jpg");
-	padding: 10px 0px 10px 0px;
+	background-image: url("../img/6.jpg");
+	background-attachment: fixed;
+	padding: 10px 0px 0px 0px;
 	
 }
 .about {
@@ -78,7 +85,7 @@ body {
     letter-spacing: 1.5;
     font-weight: bold;
 	
-  }
+}
  a:link, a:visited{
 	color: #686868;
     text-decoration: none;	
@@ -92,7 +99,7 @@ body {
 	
 } 
 .skillc { 
-     background-image: #fff;
+     background-image: url("../img/4.jpg");
 	 padding: 10px 0px 10px 0px;
 }
 .skills {
@@ -109,7 +116,7 @@ body {
 }
 .skills ol li {
   
-    color:#8012c9;
+    color:#fff;
     font-size: 25px;
     font-style: normal;
     font-weight: bold;
@@ -118,6 +125,7 @@ body {
 .qualificationc {
      background-image: url("../img/b.jpg ");
 	padding: 10px 0px 10px 0px;
+	
 	
 }
 .qualification h2 {
@@ -161,7 +169,7 @@ body {
 	color:#000;
 } 
 .projectc {
-	background-image: white;
+	background-color: Cyan;
 }
 .project img {
 	border-radius: 50%
@@ -180,7 +188,7 @@ body {
         width: 100%;
 }
 .location h3 {
-	font-size:60px;
+    font-size:60px;
     font-family:broadway,times,serif;
     color: #e51923;
 }
@@ -192,15 +200,26 @@ body {
 .icon a {
     color:#32a8f2;
 	text-align: center;
-	padding-left: 70px;
+	
 }
-.icon h5,h4,h2 {
+.icon h5,h2 {
     color:#fff;
 	font-size: 35px;
 	text-align: center;
 }
+.icon h4 {
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.mail {
+	color:#32a8f2;
+	text-align: center;
+	padding-left: 50px;
+
+}
 .footerc {
-	background-image: #000;
+	background-color: gray;
 	padding: 10px 0px 10px 0px;
 }
 .footer h1 {
