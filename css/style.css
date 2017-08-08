@@ -194,29 +194,27 @@ body {
 }
 .iconc {
 	background-image: url("../img/31.jpg");
-	padding: 10px 0px 10px 0px;
 	background-attachment: fixed;
-}
-.icon a {
-    color:#32a8f2;
 	text-align: center;
-	
 }
-.icon h5,h2 {
+.icon h2 {
     color:#fff;
-	font-size: 35px;
-	text-align: center;
+	font-family:broadway,times,serif;
+	font-size: 60px;
 }
 .icon h4 {
 	color: #fff;
 	font-size: 20px;
-	text-align: center;
 }
-.mail {
-	color:#32a8f2;
+.contact {
 	text-align: center;
-	padding-left: 50px;
-
+	font-size:20px;
+    
+}
+.contact h5 {
+	font-family:broadway,times,serif;
+	font-size: 60px;
+	color: #e51923;
 }
 .footerc {
 	background-color: gray;
