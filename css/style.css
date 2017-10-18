@@ -102,6 +102,9 @@ body {
     font-weight: bold;
 	margin: auto;
 }
+table th {
+	text-align: center;
+}
 .qualificationc {
     background-image: url("../img/b.jpg ");
 	padding: 10px 0px 10px 0px;
@@ -121,6 +124,7 @@ body {
     color: #fff;
 }  
 .qualification table {
+	overflow-x: auto; 
     font-size:25px;
     color: #fff;
     width: 750px;
