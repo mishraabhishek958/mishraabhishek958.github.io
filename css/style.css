@@ -21,6 +21,7 @@ body {
     text-align: center;  
     margin: auto;
 	color: #fff;
+	padding-left: 55px;
 }
 .banner .arrow .fa {
 	font-size: 70px;
@@ -124,7 +125,6 @@ table th {
     color: #fff;
 }  
 .qualification table {
-	overflow-x: auto; 
     font-size:25px;
     color: #fff;
     width: 750px;
